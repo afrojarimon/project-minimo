@@ -1,0 +1,271 @@
+
+body{
+	font-family:'Playfair Display', serif ;
+	font-weight: 400;
+	font-size: 16px;
+	color: #626262;
+	margin: 0;
+}
+/**header start**/
+header{
+	padding: 45px 0;
+
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+.logo{
+	padding-top: 10px;
+	width: 12%; 
+	float:left	;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 66%;
+	float: right;
+}
+.menu ul{
+	float: right;
+	list-style: none;
+}
+.menu ul li{
+	float: left;
+
+}
+.menu ul li a{
+	display: inline-block;
+	margin: 0 115px;
+	color: #626262;
+	text-decoration: none;
+    border-bottom: 1px solid transparent ;
+    transition: .33s;
+
+}
+.menu ul li a:last-child{
+	margin-right: 0;
+
+}
+.menu ul li a:hover{
+border-bottom: 1px solid #626262;
+}
+
+
+
+/**header end**/
+/**banner start**/
+.banner{
+	padding: 60px 0;
+}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+/**banner end**/
+
+/**first post start**/
+.first_post{
+	padding: 80px 0;
+}
+.container2{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 80%;
+}
+.post1{}
+.c_tag{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #b4ad9e;
+
+}
+.c_title{
+	margin: 15px 0 25px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_para{
+	margin: 0 ;
+	line-height: 24px;
+}
+.mb_45{
+	margin-bottom: 45px;
+}
+
+
+/**first post end**/
+
+/**blog start**/
+.blog{
+	padding-bottom: 80px;
+}
+.blog-s{
+	margin-top: 80px;
+	box-sizing: border-box;
+    float: left;
+	width: 47%;
+}
+.blog-s:nth-child(even){
+	
+	margin-left: 6%;
+}
+.blg-img{
+	margin-bottom: 35px;
+	
+}
+.blg-img img{
+	width: 100%;
+}
+
+/**blog end**/
+/**newsletter start**/
+.newsletter{
+	padding: 70px 0;
+	
+	background-color: #f0f0f0;
+
+}
+.form{
+	text-align: center;
+
+}
+.s-h1{
+	margin-top: 0;
+	margin-bottom: 70px;
+	color: #333333;
+}
+.sign-up{
+	margin: 0 auto;
+	width: 400px;
+	position: relative;
+}
+.sign-up input{
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	color: #626262;
+	width: 350px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #000000;
+	background-color: transparent;
+	padding-left: 5px ;
+	padding-right: 45px;
+
+}
+.sign-up input:focus{
+	outline: 0;
+}
+.sign-up button{
+	position: absolute;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	top: 14px;
+	right: 0;
+}
+.sign-up button:focus{
+	outline: 0;
+}
+
+.sign-up button img{}
+
+
+
+
+/**newsletter end**/
+/**blog2 start**/
+.b2
+{
+	padding-bottom: 0;
+}
+/**blog2 start**/
+
+/**loadmore button start**/
+
+.button{
+	margin: 175px 0;
+	text-align: center;
+
+}
+.l-m{
+	padding: 10px 35px;
+	background-color: transparent;
+	border: 1px solid #323232;
+	border-style: revert;
+	
+}
+h1 .l-m{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #626262;
+	text-decoration: none;
+}
+/**loadmore button end**/
+
+
+/**footer start**/
+
+footer{
+	
+    padding: 26px 0;
+	background-color: #f0f0f0;
+
+}
+.f-left{
+	width: 29%;
+    float: left;
+}
+
+.f-left ul{}
+.f-left ul li{
+	list-style: none;
+	float: left;
+
+}
+.f-left ul li a{
+	margin-right: 35px;
+	text-decoration: none;
+	color: #000000;
+}
+.f-left ul li a:first-child{
+}
+.f-right{
+	width: 18%;
+	float: right;
+}
+.f-right p{
+	float: left;
+	
+	margin-bottom: 0;
+	display: inline-block;
+	color:#000000;
+}
+.f-icon{
+	
+	margin-top: 18px;
+	margin-left: 33px;
+	float: left;
+}
+.f-icon img{
+	
+
+}
+
+
+
+
+
+/**footer end**/
+
+
+
+
+
+
